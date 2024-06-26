@@ -24,7 +24,7 @@ _A look at a few possible patterns for adding toast notifications to your Next.j
 
 ### Description
 
-📺 [YouTube Video]() for this repository.
+📺 [YouTube Video](https://youtu.be/A_061Vqh6Bc) for this repository.
 
 ---
 
