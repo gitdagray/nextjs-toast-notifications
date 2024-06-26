@@ -65,7 +65,6 @@ export default function UserForm({ user }: Props) {
         router.refresh() // could grab a new timestamp from db
         // reset dirty fields
         form.reset(form.getValues())
-        //}
     }
 
     return (

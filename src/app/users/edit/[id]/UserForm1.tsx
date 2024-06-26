@@ -39,22 +39,7 @@ export default function UserForm({ user }: Props) {
         react-hook-form already validates with 
         our Zod schema */
 
-        // Test validation errors: form.getValues()
-        // execute({
-        //     id: 9,
-        //     firstname: "D",
-        //     lastname: "G",
-        //     email: "davegray.codes",
-        // })
-
-        const result = await executeAsync(form.getValues()
-            //     {
-            //     id: 9,
-            //     firstname: "D",
-            //     lastname: "G",
-            //     email: "davegray.codes",
-            // }
-        )
+        const result = await executeAsync(form.getValues())
         if (result?.data?.message) {
             toast({
                 variant: "default",
